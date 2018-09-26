@@ -2,7 +2,7 @@
 
 ## Steps to run
 - Clone repository in your `$GOPATH/src/`
-- `cd $GOPATH/src/conectado/mercadolibre-challenge`
+- `cd $GOPATH/src/mercadolibre-challenge`
 - `go run .`
 
 ---
