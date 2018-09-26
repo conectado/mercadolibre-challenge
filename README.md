@@ -4,3 +4,7 @@
 - Clone repository in your `$GOPATH/src/`
 - `cd $GOPATH/src/conectado/mercadolibre-challenge`
 - `go run .`
+
+---
+
+You can find the results in `results`
