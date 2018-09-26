@@ -16,6 +16,11 @@ func main() {
 	fmt.Printf("Inversión average: %s\n", inversionAvg.FloatString(6))
 	user, value := mapMax(movements)
 	fmt.Printf("User with most movements is %s and has %d movements\n", user, value)
+	percentile := 95
+	fmt.Printf("Pago percentil %d: %d\n", percentile, calcPercentile(pago, percentile))
+	fmt.Printf("Cobro percentil %d: %d\n", percentile, calcPercentile(cobro, percentile))
+	fmt.Printf("Descuento percentil %d: %d\n", percentile, calcPercentile(descuento, percentile))
+	fmt.Printf("Inversión percentil %d: %d\n", percentile, calcPercentile(inversion, percentile))
 }
 
 func mapMax(val map[string]int) (string, int) {
