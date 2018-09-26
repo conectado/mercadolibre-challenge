@@ -1,4 +1,4 @@
-# This is a challenge done for workshop given by [MercadoLibre](https://www.mercadolibre.com.ar/)
+# This is a challenge done for a workshop given by [MercadoLibre](https://www.mercadolibre.com.ar/)
 
 ## Steps to run
 - Clone repository in your `$GOPATH/src/`
